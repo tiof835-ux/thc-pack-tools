@@ -8,10 +8,10 @@ Este proyecto está inspirado en **fsociety** y diseñado para agrupar utilidade
 
 ## 🚀 Instalación (Termux / Linux)
 
-```bash
 pkg update && pkg upgrade -y
-pkg install python git -y
-git clone https://github.com/tiof835-ux/thc-pack-tools
+pkg install git python -y
+
+git clone https://github.com/tiof835-ux/thc-pack-tools.git
 cd thc-pack-tools
-python3 -m pip install -r requirements.txt
-python3 run.py
+
+python3 thc-pack-tools.py
