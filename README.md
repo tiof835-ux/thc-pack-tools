@@ -1,0 +1,17 @@
+# THC-Pack-Tools
+
+🐍 THC Pack Tools – Paquete de herramientas en Python para Termux y terminales Linux.
+
+Este proyecto está inspirado en **fsociety** y diseñado para agrupar utilidades útiles para pruebas de red, automatización, enumeración y más.
+
+---
+
+## 🚀 Instalación (Termux / Linux)
+
+```bash
+pkg update && pkg upgrade -y
+pkg install python git -y
+git clone https://github.com/tiof835-ux/thc-pack-tools
+cd thc-pack-tools
+python3 -m pip install -r requirements.txt
+python3 run.py
